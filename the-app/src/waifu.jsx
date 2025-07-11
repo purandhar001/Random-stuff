@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Waifu.css';
+import './waifu.css';
 
 const sfwCategories = [
   "waifu", "neko", "shinobu", "megumin", "bully", "cuddle", "cry", "hug", "awoo", "kiss",
