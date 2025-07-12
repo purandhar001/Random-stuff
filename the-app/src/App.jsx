@@ -1,11 +1,17 @@
-import Waifu from './waifu';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Waifu from './Waifu';
+import DragonBall from './Dragonball.jsx';
 
 function App() {
   return (
-    <>
-      <Waifu/>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/waifu" element={<Waifu />} />
+      <Route path="/dragonball" element={<DragonBall />} />
+      {/* add more routes here as needed */}
+    </Routes>
   );
 }
 
-export default App
+export default App;

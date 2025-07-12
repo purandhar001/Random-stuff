@@ -69,9 +69,7 @@ function Waifu() {
       <h1 onClick={handleTitleClick}>Waifu Generator</h1>
 
       {imageUrl && (
-        <div className="image">
-          <img src={imageUrl} alt={category} />
-        </div>
+          <img className='image' src={imageUrl} alt={category} />
       )}
 
       <select className="category" value={category} onChange={(e) => setCategory(e.target.value)}>
