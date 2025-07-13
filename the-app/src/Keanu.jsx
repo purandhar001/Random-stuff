@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import './keanu.css';
+import './Keanu.css';
 import BackButton from './BackButton';
 
 function Keanu() {
