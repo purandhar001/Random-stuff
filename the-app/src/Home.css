@@ -53,3 +53,10 @@ header{
               0 0 5px white, 
               0 0 5px white;
 }
+
+
+.title, .home-btn {
+  user-select: none;               
+  -webkit-user-select: none;      
+  -webkit-tap-highlight-color: transparent;
+}

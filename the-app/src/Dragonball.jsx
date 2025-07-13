@@ -25,7 +25,7 @@ function Dragonball() {
   return (
     <div className="wrapper">
       <BackButton />
-      <h1 className="title">Dragonball character generator</h1>
+      <h1 className="d-title">Dragonball character generator</h1>
         <img className='image' src={img} alt="it's an image" />
       <div className="details">
         <h2 className="character-name">{character.name}</h2>
