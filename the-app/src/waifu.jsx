@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './waifu.css';
+import BackButton from './BackButton';
 
 const sfwCategories = [
   "waifu", "neko", "shinobu", "megumin", "bully", "cuddle", "cry", "hug", "awoo", "kiss",
@@ -66,6 +67,7 @@ function Waifu() {
 
   return (
     <div className="wrapper">
+      <BackButton />
       <h1 onClick={handleTitleClick}>Waifu Generator</h1>
 
       {imageUrl && (

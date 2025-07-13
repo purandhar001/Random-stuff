@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Waifu from './Waifu';
-import DragonBall from './Dragonball.jsx';
+import DragonBall from './dragonball.jsx';
+import Keanu from './Keanu';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/waifu" element={<Waifu />} />
       <Route path="/dragonball" element={<DragonBall />} />
+      <Route path="/keanu" element={<Keanu />} />
       {/* add more routes here as needed */}
     </Routes>
   );

@@ -1,0 +1,82 @@
+.video-container {
+  margin-bottom: 20px;
+}
+
+.whoa-video {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.video-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.whoa-details {
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  padding-inline: 10px;
+}
+
+.whoa-details p {
+  margin: 6px 0;
+}
+
+.gb {
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color: #9290C3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.6s ease;
+}
+
+.gb:hover {
+  background-color: #7270bf;
+  box-shadow: 2px 2px 2px black;
+}
+
+.gb:active {
+  background-color: #9c9ac1;
+  box-shadow: 1px 1px 1px black;
+  border: none;
+}
+
+.gb:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .gb {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .whoa-video {
+    max-height: 300px;
+  }
+
+  .video-controls {
+    flex-direction: column;
+  }
+}

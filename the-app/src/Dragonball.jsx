@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import BackButton from './BackButton';
 import './Dragonball.css';
 
 function Dragonball() {
@@ -23,6 +24,7 @@ function Dragonball() {
 
   return (
     <div className="wrapper">
+      <BackButton />
       <h1 className="title">Dragonball character generator</h1>
         <img className='image' src={img} alt="it's an image" />
       <div className="details">

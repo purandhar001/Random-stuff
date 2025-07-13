@@ -22,7 +22,12 @@ h1 {
   font-size: 2rem;
   cursor: default;
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  touch-action: manipulation;
 }
+
 
 .image {
   max-width: 100%;
