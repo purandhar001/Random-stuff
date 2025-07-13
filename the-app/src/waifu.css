@@ -114,4 +114,9 @@ p {
   .image {
     max-height: 300px;
   }
+
+  .wrapper {
+    padding-top: 80px;
+  }
+
 }

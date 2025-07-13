@@ -17,3 +17,13 @@
   background: white;
   color: #23234b;
 }
+
+@media (max-width: 480px) {
+  .back-btn {
+    top: 16px;
+    left: 16px;
+    font-size: 1rem;
+    padding: 8px 18px;
+    z-index: 999;
+  }
+}

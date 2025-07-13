@@ -79,4 +79,9 @@
   .video-controls {
     flex-direction: column;
   }
+
+  .wrapper {
+    padding-top: 80px;
+  }
+
 }
