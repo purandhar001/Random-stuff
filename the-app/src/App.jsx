@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Waifu from './waifu';
-import DragonBall from './dragonball.jsx';
+import DragonBall from './Dragonball.jsx';
 import Keanu from './Keanu';
 
 function App() {
