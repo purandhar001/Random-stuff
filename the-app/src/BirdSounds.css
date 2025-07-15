@@ -1,0 +1,90 @@
+.wrapper {
+  text-align: center;
+  width: 90%;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.btitle {
+  color: #9290C3;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #1B1A55;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.details-box {
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.details-box p {
+  margin: 6px 0;
+  color: aliceblue;
+}
+
+.gb {
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color: #9290C3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.gb:hover {
+  background-color: white;
+  color: #9290C3;
+}
+
+.gb:active {
+  background-color: #9c9ac1;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .btitle {
+    font-size: 1.5rem;
+  }
+
+  .gb {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  .audio-player {
+    width: 100%;
+  }
+
+  .details-box {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+}

@@ -27,7 +27,14 @@
 
 .whoa-details p {
   margin: 6px 0;
+  color: aliceblue;
 }
+
+.whoa-details strong {
+  color: white;
+  font-weight: bold;
+}
+
 
 .gb {
   padding: 12px 40px;

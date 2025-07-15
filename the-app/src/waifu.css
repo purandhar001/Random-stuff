@@ -1,14 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #070F2B;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
 .wrapper {
   text-align: center;
   width: 90%;

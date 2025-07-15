@@ -13,7 +13,7 @@ function Home() {
         <Link className="home-btn" to="/waifu">Waifu Generator</Link>
         <Link className="home-btn" to="/dragonball">Dragon Ball Generator</Link>
         <Link className="home-btn" to="/keanu">Keanu's Woah!</Link>
-        {/* Add more links here */}
+        <Link className="home-btn" to="/birdsound">Bird Sound Generator</Link>
       </div>
     </>
   );
