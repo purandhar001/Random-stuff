@@ -22,7 +22,10 @@ function BirdSounds() {
       if (data.recordings.length === 0) throw new Error('No results found');
 
       const bird = data.recordings[0];
-      setAudioUrl(`https:${bird.file}`);
+      setAudioUrl(
+        bird.file.startsWith('http') ? bird.file : `https:${bird.file}`
+      );
+
       setDetails({
         en: bird.en,
         genus: bird.gen,
